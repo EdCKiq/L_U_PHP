@@ -6,9 +6,11 @@
 </head>
 <body>
     <?php  
-        echo "Iniciando aqui"
+        echo "Tag comum";
     ?>
     <br/>
-    <?= "So Impressão" ?>
+    <?= "Tag de Impressão" ?>
+    <br/>
+    <? echo "Tag Curta"; ?>
 </body>
 </html>
