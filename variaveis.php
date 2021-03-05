@@ -13,10 +13,10 @@
 
             $idade = '18'; // Mudando o valor de uma váriavel
 
-            echo $nome, '<br/>'; // Uma forma de concatenação
+            echo $nome . '<br/>'; // Uma forma de concatenação
             echo $idade . '<br/>'; // Outra forma de concatenação 
             echo $altura . '<br/>';
-            echo $estudante . "<br/>";
+            echo $estudante . '<br/>';
 
             echo "Meu nome é $nome, tenho $idade anos e $altura de altura<br/>"; // Com "" se pode usar váriaveis juntamente com o texto
             echo 'Meu nome é $nome, tenho $idade anos e $altura de altura'; // Com ' não se consegue
